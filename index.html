@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz Uygulaması</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="main.js"></script>
+</head>
+<body>
+	
+	<h1>Bu Quiz uygulaması en iyisinin en iyisi</h1>
+	<form id="quiz" name="quiz">
+		<p>Doğunun ve batının hükümdarı kimdir?</p>
+
+		<input id="textbox" type="text" name="soru1">
+
+		<p>Asya Asyalılarındır sloganı kime aittir?</p>
+
+		<input type="radio" id="pvr" name="soru2" value="rusya"> rusya<br>
+		<input type="radio" id="pvr" name="soru2" value="japonya"> japonya <br> 
+		<input type="radio" id="pvr" name="soru2" value="almanya"> almanya <br>
+
+		<p>Genç Osmanlıların amacı nedir ?</p>
+
+		<input type="radio" id="pvr" name="soru3" value="meşrutiyeti ilan etmek"> meşrutiyeti ilan etmek<br>
+		<input type="radio" id="pvr" name="soru3" value="devrim yapmak"> devrim yapmak <br> 
+		<input type="radio" id="pvr" name="soru3" value="sanayi inkılabını başlatmak"> sanayi inkılabını başlatmak <br>
+
+		<p>Osmanlı’da mali kayıtlara kim bakar?</p>
+
+		<input type="radio" id="pvr" name="soru4" value="hazine bakani"> hazine bakanı<br>
+		<input type="radio" id="pvr" name="soru4" value="defterdar"> defterdar <br> 
+		<input type="radio" id="pvr" name="soru4" value="ocakbası"> ocakbaşı <br>
+
+
+		<input id="button" type="button" value="bitirdim" onclick="check();">
+
+	</form>
+
+	<div id="after_submit">
+
+		<p id="mesaj"></p>
+		<p id="number_correct"></p>
+		<img id="picture">
+	</div>
+ 
+</body>
+
+</html>
